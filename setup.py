@@ -25,7 +25,7 @@ class PyTest(TestCommand):
 
 setup(
     name="ft_2_quantum_sat", # TODO: better name for this lib
-    version="0.0.1",
+    version=os.getenv("TAG_NAME", "0.0.1"),
     author="Sebastiaan Brand",
     license="European Union Public License 1.2",
 
